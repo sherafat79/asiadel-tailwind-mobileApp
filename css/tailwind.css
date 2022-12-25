@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html{
+    direction: rtl;
+    
+}
+@layer base{
+    @font-face {
+        font-family: laleZar;
+        src: url('../assets/fonts/lalezar/Lalezar-Regular.eot');
+        src: url('../assets/fonts/lalezar/Lalezar-Regular.eot?#iefix') format('embedded-opentype'),  
+             url('../assets/fonts/lalezar/Lalezar-Regular.woff2') format('woff2'), 
+             url('../assets/fonts/lalezar/Lalezar-Regular.woff2') format('woff'),  
+             url('../assets/fonts/lalezar/Lalezar-Regular.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: IranYekan;
+        src: url('../assets/fonts/iranYekan/iranyekanwebregularfanum.eot');
+        src: url('../assets/fonts/iranYekan/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+             url('../assets/fonts/iranYekan/iranyekanwebregularfanum.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+             url('../assets/fonts/iranYekan/iranyekanwebregularfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+             url('../assets/fonts/iranYekan/iranyekanwebregularfanum.ttf') format('truetype');
+    }
+}

@@ -8,6 +8,10 @@ module.exports = {
            // secondary: '#ecc94b',
      
     },
+    fontFamily:{
+      "laleZar":["laleZar"],
+      "Yekan":["IranYekan"],
+    }
     },
 
   },
